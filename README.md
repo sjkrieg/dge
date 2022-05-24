@@ -37,6 +37,7 @@ The results from each experiment be written to an output directory (./results/ b
 -o --outdir (str, default='results/'): output directory for experimental results
 ```
 You can reproduce the results of the paper with the following configurations (each needs to repeat 5-fold cross validation with -f = {0,1,2,3,4}). For example,
+
 DGE-bag:
 ```
 python dge.py dat/air
@@ -48,6 +49,7 @@ python dge.py dat/air -p 1 -q
 python dge.py dat/wiki -p 1 -q -n 64 1
 ```
 For baselines set -k to 1 and -l to 1.
+
 GraphSAGE:
 ```
 python dge.py dat/air -k 1 -l 1 -e 50
