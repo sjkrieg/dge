@@ -1,13 +1,13 @@
-# Deep graph ensembles for higher-order networks
+# Deep graph ensembles for learning on graphs with higher-order depenendencies
 
-This repository contains code for the paper "Deep Ensembles for Learning on Graphs with Higher-order Dependencies." The current version supports all node classification experiments for DGE (the proposed method), GraphSAGE, and GIN (Graph Isomorphism Network).
+This repository contains initial code for the paper "Deep Ensembles for Learning on Graphs with Higher-order Dependencies." The current version supports node classification experiments for DGE (the proposed method), GraphSAGE, and GIN on two of the data sets (Air and Wiki). 
 
 ## Core prerequisites
 1. Python 3.7.3+
-2. tensorflow 2.4.1
-3. StellarGraph 1.2.1
-4. utils.py
-5. sgmods.py
+2. tensorflow (tested with 2.4.1)
+3. StellarGraph (tested with 1.2.1)
+4. utils.py (misc utilities)
+5. sgmods.py (mods for stellargraph classes)
 
 ## Running an Experiment
 ```
