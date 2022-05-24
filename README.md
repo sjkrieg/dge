@@ -1,5 +1,4 @@
-# dge
-Deep graph ensembles for higher-order networks
+# Deep graph ensembles for higher-order networks
 
 This repository contains code for the paper "Deep Ensembles for Learning on Graphs with Higher-order Dependencies." The current version supports all node classification experiments for DGE (the proposed method), GraphSAGE, and GIN (Graph Isomorphism Network).
 
