@@ -60,8 +60,3 @@ GIN:
 python dge.py dat/air -a 1 -k 1 -l 1 -e 50
 python dge.py dat/air -a 1 -k 1 -l 1 -n 64 1 -e 50
 ```
-
-## Using your own data
-To test this code with a new data set, you'll need to provide the following inputs:
-1. A network file located at {INFPREFIX}{k}.txt (e.g. dat/toy1.txt). We used [GrowHON](https://github.com/sjkrieg/growhon) to generate these from sequence data. These must be provided to DGE in a weighted edgelist format delimited by a space. Node IDs can be strings or integers.
-2. For the node classification task, a list of node labels in .csv format located at {INFPREFIX}\_labels.csv. The values in first column must match the node labels in the first order graph, e.g. toy1.txt. The .csv file must contain a column called "Label" that has a non-missing value for every node in the first-order graph. There can be any number of classes and the labels can be integers or strings.
