@@ -1,4 +1,4 @@
-# Deep graph ensembles for learning on graphs with higher-order depenendencies
+# Deep graph ensembles for graphs with higher-order depenendencies
 
 This repository contains initial code for the paper "Deep Ensembles for Learning on Graphs with Higher-order Dependencies." The current version supports node classification experiments for DGE (the proposed method), GraphSAGE, and GIN on two of the data sets (Air and Wiki). 
 
