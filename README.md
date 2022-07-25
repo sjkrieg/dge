@@ -2,7 +2,7 @@
 
 ![overview diagram](https://raw.githubusercontent.com/sjkrieg/dge/main/overview.png)
 
-This repository contains initial code for the paper "Deep Ensembles for Learning on Graphs with Higher-order Dependencies." The proposed model, DGE (Deep Graph Ensembles), utilizes an ensemble of graph neural networks (GNNs) to exploit neighborhood variance in [higher-order networks](https://github.com/sjkrieg/growhon). In graphs with higher-order dependencies, DGE consistently outperforms all state-of-the-art baselines.
+This repository contains initial code for the paper "Deep Ensembles for Graphs with Higher-order Dependencies." The proposed model, DGE (Deep Graph Ensembles), utilizes an ensemble of graph neural networks (GNNs) to exploit neighborhood variance in [higher-order networks](https://github.com/sjkrieg/growhon). In graphs with higher-order dependencies, DGE consistently outperforms all state-of-the-art baselines.
 
 ## Version history
 0.1 (CURRENT) Supports node classification experiments for DGE, GraphSAGE, and GIN on two of the data sets (Air and Wiki). 
