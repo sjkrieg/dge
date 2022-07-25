@@ -1,4 +1,4 @@
-# Deep graph ensembles for graphs with higher-order depenendencies
+# Deep graph ensembles for graphs with higher-order dependencies
 
 ![overview diagram](https://raw.githubusercontent.com/sjkrieg/dge/main/overview.png)
 
