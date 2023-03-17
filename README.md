@@ -16,7 +16,7 @@ This repository contains initial code for the paper "Deep Ensembles for Graphs w
 
 ## Running an Experiment
 ```
-python hongnn.py {INFPREFIX}
+python dge.py {INFPREFIX}
 ```
 where {INFPREFIX} is the prefix (including folder path) for the input data set. At minimum, the code expects to find an edgelist at "{INFPREFIX}{k}.txt" for the input graph of order k. Additionally, for node classification the code expects to find a file containing node labels at "{INFPREFIX}\_labels.csv".
 
