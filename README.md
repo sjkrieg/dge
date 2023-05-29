@@ -2,7 +2,7 @@
 
 ![overview diagram](https://raw.githubusercontent.com/sjkrieg/dge/main/overview.png)
 
-This repository contains initial code for the paper "Deep Ensembles for Graphs with Higher-order Dependencies." The proposed model, DGE (Deep Graph Ensembles), utilizes an ensemble of graph neural networks (GNNs) to exploit neighborhood variance in [higher-order networks](https://github.com/sjkrieg/growhon). In graphs with higher-order dependencies, DGE consistently outperforms all state-of-the-art baselines.
+This repository contains initial code for the paper "Deep Ensembles for Graphs with Higher-order Dependencies," published in ICLR 2023. The proposed model, DGE (Deep Graph Ensembles), utilizes an ensemble of graph neural networks (GNNs) to exploit neighborhood variance in [higher-order networks](https://github.com/sjkrieg/growhon). In graphs with higher-order dependencies, DGE consistently outperforms all state-of-the-art baselines.
 
 ## Version history
 0.1 (CURRENT) Supports node classification experiments for DGE, GraphSAGE, and GIN on three of the data sets (Air, Wiki, and Ship). Please be advised that the current version of this code serves primarily to replicate the results in the paper. We plan to improve this repository to include a more modular and extensible version of the StellarGraph implementation, as well as a PyTorch/Geometric implementation.
@@ -69,3 +69,16 @@ python dge.py dat/air -a 1 -k 1 -l 1 -n 64 1 -e 50
 ## Using your own data
 1. One network file for each k, located at {INFPREFIX}{k}.txt (e.g. dat/toy1.txt). These must be provided in a weighted edgelist format delimited by a space. Node IDs can be strings or integers. You can use [GrowHON](https://github.com/sjkrieg/growhon) to construct a graph with k > 1 from a set of input sequences.
 2. For the node classification task, a list of node labels in .csv format located at {INFPREFIX}\_labels.csv. The values in first column must match the node labels in the first order graph, e.g. toy1.txt. The .csv file must contain a column called "Label" that has a non-missing value for every node in the first-order graph. There can be any number of classes and the labels can be integers or strings.
+
+## Citations
+If you use this code, you can cite our paper as follows:
+```
+@inproceedings{
+krieg2023deep,
+title={Deep Ensembles for Graphs with Higher-order Dependencies},
+author={Steven Krieg and William Burgis and Patrick Soga and Nitesh Chawla},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=hZftxQGJ4Re}
+}
+```
