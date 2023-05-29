@@ -5,7 +5,7 @@
 This repository contains initial code for the paper "Deep Ensembles for Graphs with Higher-order Dependencies." The proposed model, DGE (Deep Graph Ensembles), utilizes an ensemble of graph neural networks (GNNs) to exploit neighborhood variance in [higher-order networks](https://github.com/sjkrieg/growhon). In graphs with higher-order dependencies, DGE consistently outperforms all state-of-the-art baselines.
 
 ## Version history
-0.1 (CURRENT) Supports node classification experiments for DGE, GraphSAGE, and GIN on three of the data sets (Air, Wiki, and Ship). 
+0.1 (CURRENT) Supports node classification experiments for DGE, GraphSAGE, and GIN on three of the data sets (Air, Wiki, and Ship). Please be advised that the current version of this code serves primarily to replicate the results in the paper. We plan to improve this repository to include a more modular and extensible version of the StellarGraph implementation, as well as a PyTorch/Geometric implementation.
 
 ## Core prerequisites
 1. Python 3.7.3+
