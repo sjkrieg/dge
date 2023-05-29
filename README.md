@@ -77,7 +77,7 @@ If you use this code, you can cite our paper as follows:
 krieg2023deep,
 title={Deep Ensembles for Graphs with Higher-order Dependencies},
 author={Steven Krieg and William Burgis and Patrick Soga and Nitesh Chawla},
-booktitle={The Eleventh International Conference on Learning Representations },
+booktitle={The Eleventh International Conference on Learning Representations},
 year={2023},
 url={https://openreview.net/forum?id=hZftxQGJ4Re}
 }
